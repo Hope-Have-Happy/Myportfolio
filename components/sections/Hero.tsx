@@ -12,7 +12,7 @@ export const Hero = () => {
         >
             <div className="flex flex-col items-center sm:items-start">
                 <p className="text-2xl font-medium text-muted-foreground">
-                    hi, I&apos;m Larry.
+                    hi, I&apos;m Hope-Have-Happy
                 </p>
 
                 <h1 className="mt-1 max-w-xl text-center sm:text-left">
