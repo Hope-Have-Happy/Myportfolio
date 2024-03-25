@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { IconX } from '@tabler/icons-react'
 import { GithubLink } from '../links/GithubLink'
-import { UpworkLink } from '../links/UpworkLink'
+// import { UpworkLink } from '../links/UpworkLink'
 import { MobileMenuItem } from './MobileMenuItem'
 
 export const MobileMenu = ({
