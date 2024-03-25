@@ -55,7 +55,7 @@ export const MobileMenu = ({
             <div className="p-6 flex items-center space-x-3">
                 <GithubLink className="w-1/2" />
 
-                <UpworkLink className="w-1/2" />
+                {/* <UpworkLink className="w-1/2" /> */}
             </div>
         </aside>
     )

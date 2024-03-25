@@ -1,7 +1,7 @@
 import me from '@/public/me.webp'
 import Image from 'next/image'
 import { GithubLink } from '../Header/links/GithubLink'
-import { UpworkLink } from '../Header/links/UpworkLink'
+// import { UpworkLink } from '../Header/links/UpworkLink'
 import { Section } from '../Section'
 
 export const Hero = () => {

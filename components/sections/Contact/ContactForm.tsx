@@ -51,16 +51,16 @@ export const ContactForm = () => {
         await sleep(300) // delay for animation
 
         try {
-            // await fetch(url, {
-            //     headers: {
-            //         'Content-Type': 'application/json',
-            //     },
-            //     method: 'post',
-            //     body: JSON.stringify({
-            //         chat_id: process.env.NEXT_PUBLIC_TELEGRAM_CHANNEL_CHAT_ID,
-            //         text: `New message from ${data.name} (${data.email}): ${data.message}`,
-            //     }),
-            // })
+            await fetch(url, {
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                method: 'post',
+                body: JSON.stringify({
+                    chat_id: process.env.NEXT_PUBLIC_TELEGRAM_CHANNEL_CHAT_ID,
+                    text: `New message from ${data.name} (${data.email}): ${data.message}`,
+                }),
+            })
 
             toast('Sent. Thank you for your message.')
 

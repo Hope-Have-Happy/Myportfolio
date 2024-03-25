@@ -1,6 +1,6 @@
 import { Section } from '@/components/Section'
 import { ContactForm } from './ContactForm'
-import { Links } from './Links'
+// import { Links } from './Links'
 
 export const Contact = () => {
     return (
