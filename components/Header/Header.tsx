@@ -30,9 +30,9 @@ export const Header = () => {
                         <div>
                             <Link href="/" className="sm:hidden">
                                 <span className="text-muted-foreground">
-                                    THREE
+                                    Mark Gomez
                                 </span>
-                                {' '}H
+                                {' '}
                             </Link>
 
                             <nav className="hidden sm:flex items-center space-x-5">
