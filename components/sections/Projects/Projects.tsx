@@ -7,8 +7,9 @@ const STACK = {
     NEXTJS: 'NextJS',
     POSTGRESQL: 'PostgreSQL',
     MONGODB: 'MongoDB',
-    TYPESCRIPT: 'Typescript',
-    TAILWIND: 'Tailwind',
+    TYPESCRIPT: 'TypeScript',
+    JAVASCRIPT: 'JavaScript',
+    TAILWIND: 'TailwindCSS',
     PYTHON: 'Python',
     FASTAPI: 'FastAPI',
     FIREBASE: 'Firebase',
@@ -17,6 +18,7 @@ const STACK = {
     DJANGO: 'Django',
     MYSQL: 'MySQL',
     MATERIALUI: 'Material-UI',
+    GATSBY: 'Gatsby',
 } as const
 
 export const Projects = () => {
@@ -35,7 +37,6 @@ export const Projects = () => {
                         stack={[
                             STACK.NEXTJS,
                             STACK.TYPESCRIPT,
-                            STACK.REACT,
                             STACK.TAILWIND,
                         ]}
                     />
@@ -55,31 +56,55 @@ export const Projects = () => {
                             STACK.PYTHON,
                             STACK.DJANGO,
                             STACK.MONGODB,
-                            STACK.MYSQL,
+                            STACK.POSTGRESQL,
+                        ]}
+                    />
+
+                    <Project
+                        title="aimro"
+                        description="Gatsby, what a framework based on React, is used to generate static sites, which is an excellent choice for content-rich websites such as blogs, portfolios, and business sites.
+                            One of the key advantages of Gatsby is its speed."
+                        siteUrl="https://www.aimro.ie/"
+                        githubUrl=""
+                        stack={[
+                            STACK.GATSBY,
+                            STACK.JAVASCRIPT,
                         ]}
                     />
                 </div>
 
                 <div className="flex flex-col gap-5 md:w-1/2">
                     <Project
+                        title="sedam Market for food products"
+                        description="“Sedam” is a user-friendly website developed with React, providing a platform to access high-quality food products from domestic manufacturers and world-renowned brands. 
+                            The site utilized the power of React’s component-based architecture, along with potential use of technologies like React Router for seamless navigation, and Redux for efficient state management."
+                        siteUrl="https://sedam.com.ua/"
+                        githubUrl=""
+                        stack={[
+                            STACK.REACT,
+                            STACK.JAVASCRIPT,
+                            STACK.EXPRESSJS,
+                            STACK.NODEJS,
+                            STACK.MONGODB
+                        ]}
+                    />
+
+                    <Project
                         title="a Responsive Website for a Chemical Distribution Company"
-                        description="The task was to develop a website that would effectively showcase their chemical products and services 
-                            while adhering to the best practices in the industry."
+                        description="This Website updated using Next.js. You can see original project in https://www.harrisandford.com/."
                         siteUrl="https://harris-and-ford.vercel.app/"
                         githubUrl=""
                         stack={[
                             STACK.NEXTJS,
                             STACK.TYPESCRIPT,
                             STACK.MATERIALUI,
-                            STACK.EXPRESSJS,
-                            STACK.MONGODB,
                         ]}
                     />
 
                     <Project
                         title="A Curtain Wall Design Company Website"
-                        description="The website with Next.js for aluminium curtain wall, windows and doors built. We used Next.js for SEO 
-                            in front-end development and highly efficient express for handling multiple simultaneous client requests in back-end."
+                        description="The Alumtec Glazing Solution Inc. website, developed with Next.js, includes features like a product gallery, service details, quote requests, and customer engagement tools. 
+                            The technology stack include Next.js for SEO in front-end development, highly efficient express.js for handling multiple simultaneous client requests in back-end, and PostgreSQL and MongoDB for data storage."
                         siteUrl="https://alumtec.ca/"
                         githubUrl=""
                         stack={[
@@ -89,8 +114,22 @@ export const Projects = () => {
                             STACK.EXPRESSJS,
                             STACK.NODEJS,
                             STACK.POSTGRESQL,
+                            STACK.MONGODB
                         ]}
                     />
+
+                    <Project
+                        title="hawkrobotix.tech"
+                        description="This is a landing page developed using Next.js"
+                        siteUrl="https://hawkrobotix.tech/"
+                        githubUrl=""
+                        stack={[
+                            STACK.NEXTJS,
+                            STACK.TYPESCRIPT,
+                            STACK.TAILWIND,
+                        ]}
+                    />
+
                 </div>
             </div>
         </Section>

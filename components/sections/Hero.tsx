@@ -1,6 +1,6 @@
 import me from '@/public/me.webp'
 import Image from 'next/image'
-import { GithubLink } from '../Header/links/GithubLink'
+// import { GithubLink } from '../Header/links/GithubLink'
 // import { UpworkLink } from '../Header/links/UpworkLink'
 import { Section } from '../Section'
 
@@ -26,11 +26,11 @@ export const Hero = () => {
                     over the world to achieve their goals.
                 </p>
 
-                <div className="mt-6 flex items-center space-x-3">
+                {/* <div className="mt-6 flex items-center space-x-3">
                     <GithubLink />
 
-                    {/* <UpworkLink /> */}
-                </div>
+                    <UpworkLink />
+                </div> */}
             </div>
 
             <div className="flex-1 flex justify-center sm:justify-end">
