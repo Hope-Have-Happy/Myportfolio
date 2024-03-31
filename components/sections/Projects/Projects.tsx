@@ -71,6 +71,18 @@ export const Projects = () => {
                             STACK.JAVASCRIPT,
                         ]}
                     />
+
+                    <Project
+                        title="hawkrobotix.tech"
+                        description="This is a landing page developed using Next.js"
+                        siteUrl="https://hawkrobotix.tech/"
+                        githubUrl=""
+                        stack={[
+                            STACK.NEXTJS,
+                            STACK.TYPESCRIPT,
+                            STACK.TAILWIND,
+                        ]}
+                    />
                 </div>
 
                 <div className="flex flex-col gap-5 md:w-1/2">
@@ -115,18 +127,6 @@ export const Projects = () => {
                             STACK.NODEJS,
                             STACK.POSTGRESQL,
                             STACK.MONGODB
-                        ]}
-                    />
-
-                    <Project
-                        title="hawkrobotix.tech"
-                        description="This is a landing page developed using Next.js"
-                        siteUrl="https://hawkrobotix.tech/"
-                        githubUrl=""
-                        stack={[
-                            STACK.NEXTJS,
-                            STACK.TYPESCRIPT,
-                            STACK.TAILWIND,
                         ]}
                     />
 
