@@ -8,7 +8,7 @@ export const Footer = () => {
                     <p className="text-muted-foreground">
                         portfolio • made by{' '}
                         <Button variant="link" asChild className="text-base">
-                            <a href="https://github.com/Hope-Have-Happy">Roosevelt</a>
+                            <a href="https://github.com/Hope-Have-Happy">THREEH</a>
                         </Button>{' '}
                         • 2024
                     </p>

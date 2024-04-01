@@ -30,7 +30,7 @@ export const Header = () => {
                         <div>
                             <Link href="/" className="sm:hidden">
                                 <span className="text-muted-foreground">
-                                    Roosevelt Ball
+                                    THREEH
                                 </span>
                                 {' '}
                             </Link>
