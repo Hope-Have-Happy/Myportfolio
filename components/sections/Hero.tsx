@@ -20,7 +20,7 @@ export const Hero = () => {
                 </h1>
 
                 <p className="mt-3 max-w-2xl text-muted-foreground text-lg text-center sm:text-left">
-                    For 7+ years I&apos;ve built, improved and deployed 100+
+                    For 5+ years I&apos;ve built, improved and deployed 100+
                     successful web projects. From simple landing pages to
                     full-fledged CRM systems, I&apos;ve helped clients from all
                     over the world to achieve their goals.
