@@ -21,8 +21,11 @@ export const Contact = () => {
                         Leave me a message and I will reach out to you as soon
                         as possible.
                     </p>
+                    <p>
+                        [Skype] live:.cid.661219ed7b0ba8ed
+                    </p>
 
-                    <ContactForm />
+                    {/* <ContactForm /> */}
                 </div>
             </div>
         </Section>

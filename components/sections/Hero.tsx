@@ -25,13 +25,6 @@ export const Hero = () => {
                     full-fledged CRM systems, I&apos;ve helped clients from all
                     over the world to achieve their goals.
                 </p>
-                <p></p>
-                <p>
-                    Want you to Contact me?
-                </p>
-                <p>
-                    [Skype] live:.cid.661219ed7b0ba8ed
-                </p>
 
                 {/* <div className="mt-6 flex items-center space-x-3">
                     <GithubLink />
