@@ -26,6 +26,11 @@ export const Hero = () => {
                     over the world to achieve their goals.
                 </p>
 
+                <p>
+                    Contact with me?
+                    [Skype] live:.cid.661219ed7b0ba8ed
+                </p>
+
                 {/* <div className="mt-6 flex items-center space-x-3">
                     <GithubLink />
 
