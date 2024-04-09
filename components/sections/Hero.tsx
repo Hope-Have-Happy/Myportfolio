@@ -25,9 +25,11 @@ export const Hero = () => {
                     full-fledged CRM systems, I&apos;ve helped clients from all
                     over the world to achieve their goals.
                 </p>
-
+                <p></p>
                 <p>
-                    Contact with me?
+                    Want you to Contact me?
+                </p>
+                <p>
                     [Skype] live:.cid.661219ed7b0ba8ed
                 </p>
 
