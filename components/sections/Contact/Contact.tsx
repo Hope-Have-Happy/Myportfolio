@@ -18,13 +18,13 @@ export const Contact = () => {
                     </p>
 
                     <p className="mt-1 mb-3 text-muted-foreground">
-                        {/* Leave me a message and I will reach out to you as soon
-                        as possible. */}
-                        If you want to contact me.
+                        Leave me a message and I will reach out to you as soon
+                        as possible.
+                        {/* If you want to contact me. */}
                     </p>
-                    <p>
+                    {/* <p>
                         [Skype] live:.cid.661219ed7b0ba8ed
-                    </p>
+                    </p> */}
 
                     {/* <ContactForm /> */}
                 </div>
